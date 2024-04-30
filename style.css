@@ -175,6 +175,12 @@ h3 {
   z-index: 2;
 }
 
+.fon {
+    background-image: url("fon.jpg");
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+
 .fot {
   max-height: 419.2px;
   max-width: 419.2px;
@@ -476,4 +482,135 @@ h3 {
 .backgraund__img2 {
   position: relative;
   z-index: 3;
+}
+
+.foto1 {
+  width: 400px;
+  height: 400px;
+  /* max-width: 519.2px;
+  max-height: 519.2px; */
+  border-radius: 30px;
+  margin: 0;
+  position: relative;
+  top: 250px;
+  right: -1200px;
+}
+
+.block11 {
+  background: linear-gradient(#30c2b7, #70e1a6, #96efc1);
+  width: 260.5px;
+  height: 245.7px;
+  border-radius: 20%;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 399px;
+  right: -699px;
+  text-align: center;
+}
+
+.block21 {
+  background: linear-gradient(to top right, #30c2b7, #70e1a6, #96efc1, white);
+  width: 230.5px;
+  height: 215.7px;
+  border-radius: 20%;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 630px;
+  right: 782px;
+}
+.block31 {
+  background: linear-gradient(#30c2b7, #70e1a6, #96efc1, #96efc1);
+  width: 230.5px;
+  height: 215.7px;
+  border-radius: 60%;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 630px;
+  right: -852px;
+  max-height: 50%;
+}
+.block31::after {
+  content: ""; /* Обязательно для псевдоэлементов */
+  position: absolute; /* Устанавливаем абсолютное позиционирование */
+  width: 100px; /* Ширина дырки */
+  height: 100px; /* Высота дырки */
+  background-color: #fff; /* Цвет дырки (белый в данном случае) */
+  border-radius: 50%; /* Делаем форму дырки круглой */
+  top: 50%; /* Размещаем дырку по вертикали в центре */
+  left: 50%; /* Размещаем дырку по горизонтали в центре */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Сдвигаем дырку на половину ее размера влево и вверх, чтобы она была точно в центре */
+}
+.block31:before {
+  z-index: 1; /* Устанавливаем z-index, чтобы псевдоэлементы находились выше основного элемента */
+}
+p {
+  font-size: 20px;
+}
+
+.text11 {
+  font-size: 60.7px;
+  max-height: 110px;
+  max-width: 800px;
+  color: #707070;
+  position: relative;
+  top: -82.8px;
+  right: -170.9px;
+  font-weight: bold;
+}
+
+.text21 {
+  font-size: 60.7px;
+  max-height: 110px;
+  max-width: 800px;
+  color: #259d84;
+  position: relative;
+  top: -144.8px;
+  right: -170.9px;
+}
+
+.text31 {
+  font-size: 20.7px;
+  max-height: 110px;
+  max-width: 500px;
+  color: #373737;
+  position: relative;
+  top: -100.8px;
+  right: -170.9px;
+}
+.text41 {
+  font-size: 20.7px;
+  max-height: 110px;
+  max-width: 500px;
+  color: #373737;
+  position: relative;
+  top: -475.8px;
+  right: -176px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.text51 {
+  font-size: 23.1px;
+  max-height: 110px;
+  max-width: 500px;
+  color: #373737;
+}
+
+.text61 {
+  font-size: 20.7px;
+  max-height: 110px;
+  max-width: 200px;
+  color: #373737;
+  position: relative;
+  left: 27px;
+}
+.p {
+  font-size: 40px;
+  position: relative;
+  top: -189px;
 }
